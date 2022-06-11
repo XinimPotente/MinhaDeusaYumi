@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+@media (min-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    body{
+        display: none;
+    }
+}
+@media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+    *{
+        margin: 0;
+        padding: 0;
+        outline: 0;
+    }
+    body{
+        display: block;
+    }
+    .section1{
+        background-image: url("B0C0F8.png");
+        background-repeat: repeat;
+        background-position: center;
+        background-size: cover;
+        height: 3200px;
+    }
+    .pNormalFora{
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        color: white;
+    }
+    .pDiferente{
+        margin: -150px auto 0;
+        color: white;
+    }
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: calc(0.5vw + 25px);
+        color: white;
+        text-align: center;
+        padding: 100px 0 0;
+    }
+    p{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: calc(0.5vw + 20px);
+    }
+    span{
+        color: rgb(255, 29, 86);
+    }
+    .FundoRoxo1{
+        margin-top: -100px;
+        background-image: url("fundoroxo1.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+    }
+    .FundoRoxo3{
+        background-image: url("fundoroxo3.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+    }
+
+    .FundoRoxo2{
+        background-color: #8C6CE6;
+        height: 200px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .FundoRoxo2 p{
+        width: 40%;
+        margin-left: 100px;
+    }
+    .ladin{
+        display: flex;
+        width: 60%;
+        min-width: 1077px;
+        max-width: 1200px;
+        margin: 80px auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .ladin p{
+        text-align: center;
+        margin: 0 0 20px 20px;
+    }
+    .Wrapper{
+        width: 60%;
+        margin: 80px auto 0;
+        display: flex;
+        justify-content: center;
+    }
+    .section1::after{
+        content: '';
+        display: block;
+        height: 350px;
+        background-image: url("B0C0F81.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .section2{
+        margin-top: 100px;
+    }
+    .section2 .pNormalFora{
+        color: black;
+    }
+    .diminuirPrint{
+        height: 1000px;
+    }
+
+    .section2 .ladin p{
+        width: 80%;
+    }
+    .section2 li{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: calc(0.5vw + 20px);
+    }
+    .section3{
+        background-image: url("B0C0F8.png");
+        background-repeat: repeat;
+        background-position: center;
+        background-size: cover;
+        height: 1000px;
+    }
+    .section3::before{
+        content: '';
+        display: block;
+        height: 350px;
+        margin-bottom: -100px;
+        background-image: url("B0C0F82.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .section3 p{
+        color: white;
+    }
+    .potencia{
+        font-weight: 600;
+    }
+}
+@media (min-width:2001px) { /* hi-res laptops and desktops */ 
+    .FundoRoxo1{
+        height: 500px;
+    }
+    .FundoRoxo2{
+        height: 300px;
+    }
+    .FundoRoxo3{
+        height: 600px;
+    }
+    .section1::after{
+        height: 450px;
+    }
+    .section2{
+        margin-top: 400px;
+    }
+}
